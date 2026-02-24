@@ -4,13 +4,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: "google",
+  extends: 'google',
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
   },
   rules: {
-    "require-jsdoc": "off",
-    "object-curly-spacing": ["error", "always"],
-    "max-len": ["error", { code: 120 }],
+    'require-jsdoc': 'off',
+    'object-curly-spacing': ['error', 'always'],
+    'max-len': ['error', { code: 120 }],
   },
 };
